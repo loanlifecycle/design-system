@@ -323,7 +323,8 @@ async.series([
       { source: 'index.scss', target: '' },
       { source: 'index-scoped.scss', target: '-scoped' },
       { source: 'index-ltng.scss', target: '-ltng' },
-      { source: 'index-vf.scss', target: '-vf', isVF: true }
+      { source: 'index-vf.scss', target: '-vf', isVF: true },
+      { source: 'index-bs3.scss', target: '-bs3' }
     ], compileSass, done);
   },
 
