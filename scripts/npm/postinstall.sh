@@ -11,6 +11,8 @@
 
 set -e
 
+printf 'PWD: %s\n' "${PWD}"
+
 ./node_modules/.bin/gdm
 
 if [ X"$HEROKU_APP_NAME" != "X" ]; then
