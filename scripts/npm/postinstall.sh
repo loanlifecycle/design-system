@@ -11,9 +11,7 @@
 
 set -e
 
-printf 'PWD: %s\n' "${PWD}"
-
-../.bin/gdm
+./node_modules/.bin/gdm
 
 if [ X"$HEROKU_APP_NAME" != "X" ]; then
   rm -rf server/
