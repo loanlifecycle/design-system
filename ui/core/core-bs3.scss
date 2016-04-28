@@ -18,6 +18,85 @@
     }
   }
 
+  h1{
+		font-family: $font-family;
+		font-weight: $font-weight-light;
+		font-size: $font-size-xx-large;
+		line-height: $line-height-heading;
+		margin-top: $spacing-large;
+		margin-right: $spacing-large;
+		margin-bottom: $spacing-none;
+		margin-left: $spacing-large;
+	}
+
+	h2{
+		font-family: $font-family;
+		font-weight: $font-weight-light;
+		font-size: $font-size-x-large;
+		line-height: $line-height-heading;
+		margin-top: $spacing-large;
+		margin-right: $spacing-large;
+		margin-bottom: $spacing-none;
+		margin-left: $spacing-large;
+	}
+
+	h3{
+		font-family: $font-family;
+		font-weight: $font-weight-light;
+		font-size: $font-size-large;
+		line-height: $line-height-heading;
+		margin-top: $spacing-large;
+		margin-right: $spacing-large;
+		margin-bottom: $spacing-none;
+		margin-left: $spacing-large;
+	}
+
+	h4{
+		font-family: $font-family;
+		font-size: $font-size-large;
+		line-height: $line-height-heading;
+		margin-top: $spacing-large;
+		margin-right: $spacing-large;
+		margin-bottom: $spacing-none;
+		margin-left: $spacing-large;
+	}
+
+	h5{
+		font-family: $font-family;
+		font-weight: $font-weight-light;
+		font-size: $font-size-medium;
+		line-height: $line-height-heading;
+		margin-top: $spacing-large;
+		margin-right: $spacing-large;
+		margin-bottom: $spacing-none;
+		margin-left: $spacing-large;
+	}
+
+
+	h6{
+		font-family: $font-family;
+		font-size: $font-size-small;
+		line-height: $line-height-heading;
+		color: $color-text-weak;
+		background: $color-background;
+		padding-top: $spacing-small;
+		padding-right: $spacing-medium;
+		padding-left: $spacing-medium;
+		padding-bottom: $spacing-small;
+		text-transform: uppercase;
+		letter-spacing: .0625em;
+	}
+
+	p{
+		font-family: $font-family;
+		color: $color-text-default;
+		line-height: $line-height-text;
+		margin-top: $spacing-small;
+		margin-right: $spacing-large;
+		margin-bottom: $spacing-none;
+		margin-left: $spacing-large;
+	}
+
   .input-group{
     .help-block {
       display: block;
