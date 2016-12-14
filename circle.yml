@@ -1,0 +1,25 @@
+machine:
+  environment:
+    DEPLOY_TOOLKIT: $HOME/deploy_toolkit
+    FAILURE_FILE: /tmp/build_failures.txt
+
+dependencies:
+  pre:
+    - git clone -b master git@github.com:loanlifecycle/deploy_toolkit.git $DEPLOY_TOOLKIT
+    # These are used by build_notifications.py
+    - sudo pip install paho-mqtt mock nose2 cov-core requests pycurl
+  override:
+    - npm install
+
+# Just stubbing this since there is no need for anything to run here.
+database:
+  pre:
+    - echo "Database:pre section is empty."
+  override:
+    - echo "Database:override section is empty."
+
+test:
+  override:
+    - npm run dist || ( touch $FAILURE_FILE && exit 1 )
+  post:
+    - $DEPLOY_TOOLKIT/scripts/build_notifications.py
