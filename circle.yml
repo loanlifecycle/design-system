@@ -33,6 +33,8 @@ test:
     - $DEPLOY_TOOLKIT/scripts/build_notifications.py
 
 deployment:
-  release: master
-  commands:
-    - build-release
+  release:
+    branch: master
+    commands:
+      - build-release
+
