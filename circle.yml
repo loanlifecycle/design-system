@@ -36,6 +36,5 @@ deployment:
   release:
     branch: master
     commands:
-      - sfdeploy --prefix RELEASE -d deploy_sfdc_js_release -s src/ -lt file -ll debug -lp $CIRCLE_ARTIFACTS/deployment-errors.log -ci || $DEPLOY_TOOLKIT/scripts/epic_failure.sh
       - build-release
 
