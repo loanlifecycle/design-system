@@ -88,7 +88,7 @@
     "react": "0.14.7",
     "react-addons-test-utils": "0.14.7",
     "react-dom": "0.14.7",
-    "react-lorem-component": "aputinski/react-lorem-component",
+    "react-lorem-component": "martinandert/react-lorem-component",
     "rimraf": "2.5.2",
     "run-sequence": "1.2.0",
     "semver": "5.1.0",
