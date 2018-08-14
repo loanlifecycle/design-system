@@ -1,4 +1,6 @@
-# Salesforce Lightning Design System
+# Deprecated to [ncino/javascript-design-system](https://github.com/ncino/javascript-design-system).
+
+## Salesforce Lightning Design System
 
 [![Build Status](https://travis-ci.com/salesforce-ux/design-system-internal.svg?token=BMXxPFKR5GZuYsqAFsEf&branch=summer-16)](https://travis-ci.com/salesforce-ux/design-system-internal)
 
